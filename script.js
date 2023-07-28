@@ -43,6 +43,13 @@ $(document).ready(() => {
         });
     });
 
+    $("#bg").change(function(){
+        $(current).css("background-color",$("#bg").val());
+    });
+    $("#fg").change(function(){
+        $(current).css("color",$("#fg").val());
+    });
+
     $("#parent").children().mouseover(function(e){
         $(".highlight").removeClass("highlight");     
         $(e.target).addClass("highlight");
