@@ -11,22 +11,40 @@
 
 <body>
     <div class="app">
-        <div class="left-panel">
-            <button id="vstack"> V Stack</button>
-            <button id="hstack">H stack</button>
-            <button> Z stack</button>
-            <br>
-            <button id="flex-start"> flex-start</button>
-            <button id="flex-end"> flex-end </button>
-            <button id="center"> center </button>
-            <button id="space-evenly"> space-evenly</button>
-            <br>
-            <button id="add">Add</button>
-            <br>
-            <input type="color" id="bg" name="bg">
-            <label for="bg">Background Color</label>
-            <input type="color" id="fg" name="fg">
-            <label for="fg">Text Color</label>
+        <div class="left-panel" id="left-panel">
+            <div id="divTags">
+                <button id="vstack"> V Stack</button>
+                <button id="hstack">H stack</button>
+                <button> Z stack</button>
+                <br>
+                <button id="flex-start"> flex-start</button>
+                <button id="flex-end"> flex-end </button>
+                <button id="center"> center </button>
+                <button id="space-evenly"> space-evenly</button>
+                <br> <br>
+                <input type="color" id="bg" name="bg">
+                <label for="bg">Background Color</label>
+                <br> <br>
+                <button id="addDiv">Add Div</button>
+                <button id="addTxt">Add Text</button>
+                <br> <br>
+            </div>
+            <div id="textTags">
+                <input type="color" id="fg" name="fg">
+                <label for="fg">Text Color</label>
+                <br> <br>
+                <input type="text" id="text" name="text"><br>
+                <input type="button" id="cngTxt" value="change text">
+                <br> <br>
+            </div>
+            <!-- <input type="file" id="img" name="img" accept="image/*"> -->
+            <div id="constantTags">
+                <button id="delete">Delete Item</button>
+                <br><br>
+                <button id="download">Download</button>
+                <button id="log">Log</button>
+            </div>
+
         </div>
         <div id="parent">
             <div id="container">
